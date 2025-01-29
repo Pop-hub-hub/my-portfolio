@@ -44,13 +44,13 @@ for(let i = 0; i < el.length; i++){
 
 
 function sendEmail() {
-    var fullName = document.getElementById('fullName').value;
-    var email = document.getElementById('email').value;
-    var mobileNumber = document.getElementById('mobileNumber').value;
-    var subject = document.getElementById('subject').value;
-    var message = document.getElementById('message').value;
+    let fullName = document.getElementById('fullName').value;
+    let email = document.getElementById('email').value;
+    let mobileNumber = document.getElementById('mobileNumber').value;
+    let subject = document.getElementById('subject').value;
+    let message = document.getElementById('message').value;
 
-    var mailto_link = 'mailto:bdhm28191@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' +
+    let mailto_link = 'mailto:bdhm28191@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' +
         'Full Name: ' + encodeURIComponent(fullName) + '%0A' +
         'Email: ' + encodeURIComponent(email) + '%0A' +
         'Mobile Number: ' + encodeURIComponent(mobileNumber) + '%0A%0A' +
